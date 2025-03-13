@@ -2164,7 +2164,18 @@ input[type=submit] {
 
 .socials-list {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+}
+.lineFontICon{
+  background-color: #06C755; /* LINE 綠色 */
+  color: white; /* 圖示變白色 */
+  padding: 5px; /* 讓圖示有內距 */
+  border-radius: 50%; /* 圓形背景 */
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 50px; /* 設定寬高 */
+  height: 50px;
 }
 .socials-list__link {
   display: grid;
